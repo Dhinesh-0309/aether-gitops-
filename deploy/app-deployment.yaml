@@ -18,6 +18,6 @@ spec:
         location: edge
       containers:
       - name: ml-app
-        image: dhineshpandian/ml-application:latest
+        image: dhineshpandian/runtime-app:latest
         ports:
         - containerPort: 5000
